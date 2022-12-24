@@ -1,0 +1,34 @@
+.button{
+    color: white;
+    background-color: rgb(232, 92, 92);
+    border: none;
+}
+.button:hover{
+    border-radius: 5px;
+    background-color: rgb(210, 38, 38);
+    transition: 1s;
+}
+.button:active{
+    border-radius: 20px;
+    background-color: rgb(132, 11, 11);
+    transition: 1s;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 5px;
+    border-left: 3px solid green;
+}
+li:first-child{
+    border-color: black;
+    
+}
+li:last-child{
+    border-color: brown;
+}
+li:nth-child(2){
+    border-color: orange;
+}

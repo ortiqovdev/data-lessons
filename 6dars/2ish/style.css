@@ -1,0 +1,98 @@
+.box{
+    margin: 20px;
+    font-family: sans-serif;
+    background-color: rgb(215, 17, 113);
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+
+    
+}
+.insta{
+    width: 180px;
+ 
+
+}
+.title{
+    
+    color: white;
+   font-size: 40px;
+    text-transform: uppercase;
+
+  
+}
+.text{
+    color: white;
+    text-align: center;
+    
+    font-size: 20px;
+    padding: 10px;
+}
+.read{
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: crimson;
+    font-size: 20px;
+}
+.box1{
+    margin: 20px;
+    font-family: sans-serif;
+    background-color: rgb(60, 38, 207);
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    text-align: center;
+    float: right    ;
+}
+.twit{
+    width: 160px;
+}
+.title1{
+    color: white;
+    font-size: 40px;
+     text-transform: uppercase;
+}
+.text1{
+    color: white;
+    text-align: center;
+    
+    font-size: 20px;
+
+}
+.box2{
+    margin: 20px;
+    font-family: sans-serif;
+    background-color: rgb(10, 153, 236);
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    
+}
+.face{
+    width: 130px;
+}
+.read1{
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(8, 75, 169);
+    font-size: 20px;
+}
+.read2{
+  
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(40, 122, 236);
+    font-size: 20px;
+}

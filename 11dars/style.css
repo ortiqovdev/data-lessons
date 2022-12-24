@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+aside {
+    width: 250px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    flex-grow: 1;
+    height: calc(100vh - 70px);
+    background-color: rgb(211, 211, 211);
+}
+
+.brand {
+    height: 70px;
+    padding: 20px 25px;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu-item {
+    padding: 15px 25px;
+    color: rgba(0, 0, 0.581);
+}
+
+.menu-item.active {
+    color: black;
+    position: relative;
+}
+
+.menu-item.active::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 100%;
+    content: '';
+    background-color: rgb(121, 21, 160);
+}
+
+.btn {
+    padding: 15px;
+    background-color: rgb(121, 21, 160);
+    margin-left: 25px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    background-color: white;
+    width: 800px;
+}
+
+.input-group {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.input-group i {
+    color: rgb(121, 21, 160);
+}
+
+.input-group input {
+    border: 0;
+    background: none;
+    outline: 0;
+
+}
+
+.profile {}
+
+.profile-menu {
+    margin: 10px;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.profile-menu i {
+    color: rgb(121, 21, 160);
+    margin: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+
+}

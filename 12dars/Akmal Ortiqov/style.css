@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.box {
+    background-color: #080618;
+    width: 288px;
+    height: 655px;
+    border-radius: 32px;
+    margin: 50px;
+
+}
+
+li {
+
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+
+}
+
+p {
+    margin-left: 15px;
+    color: white;
+}
+
+p:hover {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+li .twit {
+    margin-top: 30px;
+    color: antiquewhite;
+}
+
+button {
+    margin-left: 20px;
+    padding: 20px;
+    width: 240px;
+    border-radius: 40px;
+    align-items: center;
+    background-color: #1D9BF0;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+
+}
+button:hover{
+    margin: 0;
+    padding: 0;
+    width: 200px ;
+    min-height: 100px;
+}
+

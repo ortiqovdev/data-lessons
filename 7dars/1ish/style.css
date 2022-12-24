@@ -1,0 +1,28 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+.box{
+    margin:50px ;
+    background-color: rgb(233, 201, 88);
+    border: 3px solid rgb(134, 61, 5);
+height: 500px;
+width: 500px;
+}
+
+.h1{
+    margin: 10px;
+}
+img{
+    border: 10px inset rgb(229, 141, 26);
+margin: 20px;
+}
+.text{
+    background-color: yellow ;
+    border: 5px dashed rgb(233, 155, 10);
+width:300px ;
+margin: 10px;
+overflow-y:  scroll;
+
+}
